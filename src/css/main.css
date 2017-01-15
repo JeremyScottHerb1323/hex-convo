@@ -1,0 +1,12 @@
+div {
+  background-color: blue;
+}
+* {
+  padding: 5px;
+}
+span {
+  color: purple;
+}
+body {
+  color: red;
+}

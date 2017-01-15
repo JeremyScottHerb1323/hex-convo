@@ -1,0 +1,30 @@
+{
+  "name": "hex-convo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremyScottHerb1323/hex-convo.git"
+  },
+  "author": "Jeremy Herb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeremyScottHerb1323/hex-convo/issues"
+  },
+  "homepage": "https://github.com/JeremyScottHerb1323/hex-convo#readme",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "jshint-stylish": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-cssmin": "latest"
+  }
+}
