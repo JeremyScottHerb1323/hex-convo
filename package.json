@@ -25,6 +25,10 @@
     "jshint-stylish": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-less": "latest",
-    "grunt-contrib-cssmin": "latest"
+    "grunt-contrib-cssmin": "latest",
+    "grunt-clearcache": "latest"
+  },
+  "dependencies": {
+    "grunt-clearcache": "0.0.4"
   }
 }

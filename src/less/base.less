@@ -1,4 +1,43 @@
-div { background-color:blue; }
- * { padding: 5px; }
-span { color: purple;}
-body { color: red; }
+@import 'mixins.less';
+
+body {
+  background-color: @bg-color-1;
+  font-size: 13px;
+  color: @text-color-1;
+}
+
+h1,.h1, h2,.h2,  h3,.h3, h4,.h4, h5,.h5, h6,.h6 {
+  font-family: @main-heading-font;
+  display: block;
+  color: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+h1,.h1 {
+  color: @highlight-color-1;
+  font-size: 3em;
+}
+
+h2, .h2 {
+  color: @highlight-color-2;
+  font-size: 2.4em;
+}
+
+h3, .h3 {
+  font-size: 1.8em;
+}
+
+header {
+  background-color: @bg-color-3;
+  width: 98%;
+  margin: 0 auto;
+  h1 { margin: 0; }
+}
+#content {
+  width: 95%;
+  margin: 0 auto;
+}
+.results-container {
+  background-color: @bg-color-2;
+}

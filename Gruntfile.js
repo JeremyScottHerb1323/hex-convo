@@ -36,7 +36,6 @@ module.exports = function(grunt) {
         }
       }
     },
-
     watch: {
       // for stylesheets, watch css and less files
       // only run less and cssmin
@@ -60,6 +59,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-clearcache');
 
 
 };
